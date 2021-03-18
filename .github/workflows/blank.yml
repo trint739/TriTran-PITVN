@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       authcode:
-        description: 'TriTran-PITVN'
+        description: 'Nhập User'
         required: true
       pincode:
-        description: '123456'
+        description: 'Nhập Pass'
         required: true
   
 jobs:
